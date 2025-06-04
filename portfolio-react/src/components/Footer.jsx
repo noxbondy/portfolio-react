@@ -20,10 +20,10 @@ import { FaGithub } from "react-icons/fa";// Importing Facebook icon
           <div className='quick-links'>
           <h5>Quick Links</h5>
         <ul class="list-unstyled">
-          <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
-          <li><a href="about.html" class="text-white text-decoration-none">About</a></li>
-          <li><a href="Projects.html" class="text-white text-decoration-none">Projects</a></li>
-          <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+          <li><a href="/home" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="/About" class="text-white text-decoration-none">About</a></li>
+          <li><a href="/Projects" class="text-white text-decoration-none">Projects</a></li>
+          <li><a href="/Contact" class="text-white text-decoration-none">Contact</a></li>
         
         </ul>
           </div>
