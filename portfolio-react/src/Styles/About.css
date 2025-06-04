@@ -1,0 +1,13 @@
+.container-about p{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    color: #0e0606;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container-about li {
+    font-size: 12px;
+    color: #0d0c0c;
+    font-family: 'Lucida Sans';
+   
+}
