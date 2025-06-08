@@ -7,4 +7,5 @@ export const MenuList = [
   { id: 1, name: 'Beef Burger', price: 5, image: BurgerImage },
   { id: 2, name: 'Chicken Burger', price: 3, image: ChickenBurgerImage},
   { id: 3, name: 'Fish Burger', price: 2, image: FishBurgerImage },
-];
+  
+]
