@@ -33,7 +33,16 @@ const Projects = () => {
                 <div className="uk-card uk-card-default uk-card-body uk-animation-scale-up">
                     <h3 className="uk-card-title">Calender</h3>
                     <p>Calendar.</p>
-                    <Link to="/Calendar" className="btn btn-primary">View</Link>
+                    <Link to="/CreateMeetingForm" className="btn btn-primary">View</Link>
+                </div>
+                </div>
+            </div>
+            <div className='col-md-4'>
+                <div className="uk-animation-toggle" tabIndex="0">
+                <div className="uk-card uk-card-default uk-card-body uk-animation-scale-up">
+                    <h3 className="uk-card-title">Calender DashBoard</h3>
+                    <p>Calendar.</p>
+                    <Link to="/Meetings" className="btn btn-primary">View</Link>
                 </div>
                 </div>
             </div>

@@ -8,8 +8,11 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Marketplace from './pages/Marketplace';
-import Calendar from './pages/Calendar';
+
 import Menu from './pages/Menu';
+import Ads from './pages/Marketplace/Ads';
+import Meetings from './pages/Meetings';
+import CreateMeetingForm from './pages/CreateMeetingForm';
  //
 //  Importing Marketplace page if needed
 
@@ -24,8 +27,12 @@ import Menu from './pages/Menu';
         <Route path="/projects" element={<Projects />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Marketplace" element={<Marketplace />} />
-        <Route path="/Calendar" element={<Calendar />} />
+        
         <Route path="/Menu" element={<Menu />} />
+        <Route path="/Ads" element={<Ads/>} />
+        <Route path="/Meetings" element={<Meetings/>} />
+         <Route path="/CreateMeetingForm" element={<CreateMeetingForm/>} />
+        
       </Routes>
       <Footer />
     </Router>

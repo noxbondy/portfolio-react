@@ -19,6 +19,7 @@ import { Link } from 'react-router-dom'; // Import Link for navigation
           <li class="nav-item"><a class="nav-link" href="/About">About</a></li>
           <li class="nav-item"><a class="nav-link" href="/Projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="/Contact">Contact</a></li>
+           <li class="nav-item"><a class="nav-link" href="/Ads">Ads</a></li>
           
         </ul>
       </div>
