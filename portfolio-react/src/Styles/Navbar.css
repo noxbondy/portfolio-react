@@ -7,4 +7,11 @@
       color: #fff;
       font-size: 3rem;
     }
-   
+   .navbar{
+    width: auto;
+    height: 50px;
+   }
+   .collapse{
+    display: inline;
+    padding-top: 20px;
+   }
