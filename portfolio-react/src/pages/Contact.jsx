@@ -27,8 +27,8 @@ import '../styles/Contact.css'; // Assuming you have a CSS file for styling
   }, []);
   return (
     
-    <div className="container-from">
-      <div className='row'>
+    <div className="container-from justify-content-center">
+      <div className='row '>
 <div className='col-md-6'>
 </div>
 <div className='col-md-6'>

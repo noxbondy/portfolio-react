@@ -5,6 +5,7 @@ import '../styles/Calendar.css';
 
 const CreateMeetingForm = () => {
   const [formData, setFormData] = useState({
+    
     title: "",
     meetingDate: "",
     meetingTime: "",
@@ -38,6 +39,7 @@ const CreateMeetingForm = () => {
       if (response.status === 200) {
         setSuccessMsg("Meeting created successfully!");
         setFormData({
+           
           title: "",
           meetingDate: "",
           meetingTime: "",

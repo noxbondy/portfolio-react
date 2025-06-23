@@ -78,14 +78,14 @@ const deleteMeetings = async (id) => {
         <tbody>
           {meetings.length === 0 && !error ? (
             <tr>
-              <td colSpan="8" className="text-center">
+              <td colSpan="6" className="text-center">
                 Loading...
               </td>
             </tr>
           ) : (
             meetings.map((meeting, index) => (
               <tr key={meeting.id || index}>
-                <td>{index + 1}</td>
+                <td>{ meeting.id}</td>
                 <td>{meeting.title}</td>
                 <td>{meeting.localDate}</td>
                 <td>{meeting.time}</td>
